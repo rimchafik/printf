@@ -1,14 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
-#include <stdarg.h>
-
-int _printf(const char *format, ...);
-
-
-
-
-=======
 
 #define END '\0'
 
@@ -54,6 +45,5 @@ int _putc(char c);
 int _printf(const char *format, ...);
 int rev_string(char *s);
 int *_strcpy(char *dest, char *src);
->>>>>>> 60889f23b11aea437b81ac42d6a607540f745742
 
 #endif
